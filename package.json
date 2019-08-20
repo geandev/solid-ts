@@ -1,0 +1,27 @@
+{
+  "name": "solid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build && npm run jasmine",
+    "jasmine": "./node_modules/.bin/jasmine",
+    "build": "./node_modules/.bin/tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jasmine": "^3.4.0",
+    "@types/node": "^12.7.2",
+    "jasmine": "^3.4.0",
+    "typescript": "^3.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeanAlexandre/solid-ts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeanAlexandre/solid-ts/issues"
+  },
+  "homepage": "https://github.com/GeanAlexandre/solid-ts#readme"
+}
